@@ -1,3 +1,5 @@
 body { font-family: system-ui, sans-serif; margin: 0; }
 :root { --brown: #4b2e1e; --cream: #fff8ef; }
 header { background: var(--brown); color: var(--cream); padding: 24px; }
+.hero { padding: 80px 24px; text-align: center; background: var(--cream); }
+.cta { display: inline-block; padding: 12px 24px; background: var(--brown); color: #fff; border-radius: 6px; }
