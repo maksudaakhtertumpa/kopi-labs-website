@@ -8,3 +8,4 @@ form { display: grid; gap: 12px; max-width: 360px; margin: 24px auto; }
 input, button { font: inherit; padding: 10px; }
 img { max-width: 100%; height: auto; }
 .gallery img { aspect-ratio: 4 / 3; object-fit: cover; }
+@media (max-width: 600px) { .hero { padding: 48px 16px; } nav a { margin-left: 8px; } }
